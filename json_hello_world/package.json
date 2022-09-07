@@ -1,0 +1,18 @@
+{
+  "name": "json_hello_world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "tsc && node build/main.js"
+  },
+  "author": "Victor",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
