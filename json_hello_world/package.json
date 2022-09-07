@@ -4,7 +4,8 @@
   "description": "",
   "main": "build/main.js",
   "scripts": {
-    "start": "tsc && node build/main.js"
+    "build": "npx tsc",
+    "start": "node build/main.js"
   },
   "author": "Victor",
   "license": "ISC",
